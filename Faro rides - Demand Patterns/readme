@@ -1,6 +1,8 @@
 #Faro Rides Demand Patterns
 
-Faro Rides is a cab sharing company operating in 12 cities and 5 provinces in Spain. Since launching, the business has logged every trip: date, driver, city, ride type, fare, distance, and more. The data exists. The problem is that no one can use it to answer important business questions effectively.                  
+Faro Rides is a cab sharing company operating in 12 cities and 5 provinces in Spain. 
+Since launching, the business has logged every trip: date, driver, city, ride type, fare, distance, and more. The data exists. 
+The problem is that no one can use it to answer important business questions effectively.                  
 The objective of the project is to understand the demand pattersn  by location. 
 
 I used the below questions to understand the demand patterns.                        
@@ -12,3 +14,15 @@ I used the below questions to understand the demand patterns.
 
 
 
+---------------------------------------------------------------
+
+The Regional Managers want you to add a new page giving their local city teams a more detailed view of operations performance:
+
+How many trips were completed each month?
+What time of the day is demand heaviest?
+What's the average rating across the platform?
+Which ride types generate the most revenue?
+What's the average fare amount?
+Where is revenue concentrated across Spain?
+Which drivers generated the most revenue? What's their average rating?
+They also want to see the overall platform metrics, but be able to filter by their individual province, and let city managers zoom in on their own city.
