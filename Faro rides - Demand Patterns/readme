@@ -2,7 +2,15 @@
 
 Faro Rides is a cab sharing company operating in 12 cities and 5 provinces in Spain. 
 Since launching, the business has logged every trip: date, driver, city, ride type, fare, distance, and more. The data exists. 
-The problem is that no one can use it to answer important business questions effectively.                  
+The problem is that no one can use it to answer important business questions effectively.   Below are the tables that the data is collected into   
+| Table        | Description                                                        | Rows  |
+|--------------|--------------------------------------------------------------------|------:|
+| FctTrips     | One row per trip with operational and financial details            | 21,837 |
+| DimGeography | Location details lookup for each city where Faro operates         | 12    |
+| DimRideType  | Ride type lookup with pricing details                              | 3     |
+| DimDate      | Full date table with year, quarter, month, week, and day attributes | 731   |
+| DimDrivers   | Driver attributes lookup with current rating and activity status  | 50    |
+
 The objective of the project is to understand the demand pattersn  by location. 
 
 I used the below questions to understand the demand patterns.                        
@@ -26,3 +34,5 @@ What's the average fare amount?
 Where is revenue concentrated across Spain?
 Which drivers generated the most revenue? What's their average rating?
 They also want to see the overall platform metrics, but be able to filter by their individual province, and let city managers zoom in on their own city.
+
+
