@@ -1,1 +1,14 @@
+# Faro Rides Demand Patterns
+
+Faro Rides is a cab sharing company operating in 12 cities and 5 provinces in Spain.                     
+The objective of the project is to understand the demand pattersn  by location. 
+
+I used the below questions to understand the demand patterns.                        
+1. How many Trips Faro has completed overall?                           
+2. Which Province generate the most demand.                       
+3. How is the demand trending over time.                                 
+4. What is the trips and revenue breakdown per city ?                   
+5. Can both regional and city manager filter the report to focus on their own territory? 
+
+
 
