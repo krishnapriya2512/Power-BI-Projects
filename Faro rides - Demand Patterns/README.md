@@ -16,9 +16,8 @@
 3. [Section 1: Trips by Location](#-section-1-trips-by-location)
 4. [Section 2: Operations Overview](#-section-2-operations-overview)
 5. [Key Insights](#-key-insights)
-6. [Interactivity & Filtering](#-interactivity--filtering)
-7. [Tools & Skills Demonstrated](#-tools--skills-demonstrated)
-8. [Repository Structure](#-repository-structure)
+6. [Tools & Skills Demonstrated](#-tools--skills-demonstrated)
+7. [Repository Structure](#-repository-structure)
 
 ---
 
@@ -55,8 +54,6 @@ The report is built on a **star schema**: one fact table surrounded by four dime
 
 **Objective:** Understand Faro's demand patterns by location.
 
-![Trips by Location dashboard](images/trips-by-location.png)
-
 ### Questions answered
 
 | # | Business Question | How the Dashboard Answers It |
@@ -90,8 +87,6 @@ The report is built on a **star schema**: one fact table surrounded by four dime
 ## 🧭 Section 2: Operations Overview
 
 **Objective:** The Regional Managers asked for a new page giving their local city teams a more detailed view of operational performance. It shows overall platform metrics, can be filtered by province, and lets city managers zoom in on their own city.
-
-![Operations Overview dashboard](images/operations-overview.png)
 
 ### Questions answered
 
@@ -132,18 +127,6 @@ The `Shift` column was derived from the trip hour to group demand into four peri
 
 ---
 
-## 🎛 Interactivity & Filtering
-
-| Feature | Who It Helps |
-|---|---|
-| **Province dropdown** | Regional Managers focusing on their own province |
-| **City slicer / dropdown** | City Managers zooming in on a single city |
-| **Province → City hierarchy** (map & table) | Drill from region to city in one click |
-| **Date hierarchy** (Year → Month) | Analysts moving between yearly and monthly trends |
-| **Cross-filtering** across all visuals | Everyone: click any bar, bubble, or shift and the whole page responds |
-
----
-
 ## 🛠 Tools & Skills Demonstrated
 
 - **Power BI Desktop**: report design, page layout, KPI cards, maps, conditional formatting
@@ -158,19 +141,13 @@ The `Shift` column was derived from the trip hour to group demand into four peri
 
 ```
 faro-rides-powerbi/
-├── FaroRides.pbix              # Power BI report file
-├── data/                       # Source tables (FctTrips, Dim*)
-├── images/
-│   ├── trips-by-location.png
-│   └── operations-overview.png
+├── faro_rides_demand_patters.pbix              # Power BI report file                      
+├── data/
+│   ├── FctTrips.csv
+│   └── Dimgeography.csv
+│   └── DimDrivers.csv
+│   └── DimRideType.csv
 └── README.md
 ```
 
----
 
-## 👤 Author
-
-**[Your Name]**
-[LinkedIn](https://www.linkedin.com/) · [Portfolio](#) · [Email](mailto:you@example.com)
-
-*If you found this project useful, feel free to ⭐ the repo.*
