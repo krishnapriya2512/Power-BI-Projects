@@ -26,13 +26,24 @@ I used the below questions to understand the demand patterns.
 
 The Regional Managers want you to add a new page giving their local city teams a more detailed view of operations performance:
 
+Objectives: 
 How many trips were completed each month?
+ ans: Used a line graph using drill-up mechanism by creating a date hierarchy to create total trip trends which helps in checking how many trips were completed.
+
 What time of the day is demand heaviest?
+ ans: Evenings in both weekends and weekdays the demand was heaviest. 
+To Answer this question I have built a Clustered colum chart and derived a shift column from hour column. and check the highest demand in both weekdays and weekends. 
 What's the average rating across the platform?
+Ans: The average rating of the platform is 4.23. I have used a card visual to showcase it as a KPI. 
 Which ride types generate the most revenue?
+ANs: XL Ride types generate most revenue. To anwer this I have used a clustered bar chart.
 What's the average fare amount?
+Ans: The Average fare amount is 18.52. To represent this in the dashboard I used a card visual.
 Where is revenue concentrated across Spain?
+Ans: The revenue is concentrated acrros 12 cities in spain. TO represent this I have used a map visual with bubble effect to show the revenuw concentration accross spain.
+Also provided a hirrachy of province and city.
 Which drivers generated the most revenue? What's their average rating?
+I have used a table to showcase the most revenue and average rating of top 5 drivers. 
 They also want to see the overall platform metrics, but be able to filter by their individual province, and let city managers zoom in on their own city.
 
 
