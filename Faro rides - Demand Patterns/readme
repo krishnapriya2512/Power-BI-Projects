@@ -1,6 +1,6 @@
 #Faro Rides Demand Patterns
 
-Faro Rides is a cab sharing company operating in 12 cities and 5 provinces in Spain.                     
+Faro Rides is a cab sharing company operating in 12 cities and 5 provinces in Spain. Since launching, the business has logged every trip: date, driver, city, ride type, fare, distance, and more. The data exists. The problem is that no one can use it to answer important business questions effectively.                  
 The objective of the project is to understand the demand pattersn  by location. 
 
 I used the below questions to understand the demand patterns.                        
