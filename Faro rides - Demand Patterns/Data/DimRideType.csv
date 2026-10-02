@@ -1,0 +1,5 @@
+Faro Rides — Ride Type Reference,,,,,
+ride_type_id,ride_type,base_fare_eur,per_km_rate,capacity,description
+1,Standard,2.5,1.2,4,Affordable everyday rides for up to 4
+2,Premium,3.5,1.8,4,Comfort rides for up to 4
+3,XL,4.0,2.1,6,Spacious rides for groups up to 6
