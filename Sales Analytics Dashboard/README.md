@@ -8,8 +8,6 @@
 
 > **Turning ~8,000 raw sales orders into answers on revenue, customers, channels, currencies, warehouses, products and regions.**
 
-![Dashboard preview](images/01_executive_overview.png)
-
 ---
 
 ## 📌 Table of Contents
